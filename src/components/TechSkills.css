@@ -1,0 +1,72 @@
+.tech-skills-section {
+  padding: 40px 20px;
+  display: flex;
+  justify-content: center;
+  background-color: #ffffff;
+}
+
+.tech-skills-box {
+  background: #d3f6f8;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(234, 177, 177, 0.1);
+  width: 100%;
+  max-width: 700px;
+  text-align: center;
+  border: 2px solid #060606;
+}
+
+.tech-skills-box h2 {
+  font-size: 28px;
+  margin-bottom: 25px;
+  color: #3a66d6;
+  border-bottom: 2px solid #5153d4;
+  display: inline-block;
+  padding-bottom: 6px;
+}
+
+.skills-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.skill-item {
+  margin-bottom: 18px;
+}
+
+.skill-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 600;
+  color: #0f0f0f;
+  margin-bottom: 6px;
+}
+
+.skill-name {
+  text-align: left;
+}
+
+.skill-percent {
+  flex-shrink: 0;
+  margin-left: 10px;
+  font-weight: bold;
+  color: #0a1336;
+}
+
+.skill-bar {
+  width: 100%;
+  background-color: #ddd;
+  height: 8px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.skill-level {
+  height: 100%;
+  background-color: #24dff0;
+  border-radius: 8px;
+  transition: width 0.5s ease-in-out;
+}

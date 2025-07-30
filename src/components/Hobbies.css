@@ -1,0 +1,39 @@
+.hobbies-section {
+  padding: 60px 20px;
+  background-color: #f5f7fa;
+  text-align: center;
+}
+
+.hobbies-title {
+  font-size: 32px;
+  margin-bottom: 30px;
+  color: #354b79;
+  border-bottom: 2px solid #928dab;
+  display: inline-block;
+  padding-bottom: 6px;
+}
+
+.hobbies-card {
+  background-color: rgb(216, 236, 239);
+  max-width: 600px;
+  margin: auto;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.hobbies-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
+
+.hobbies-list li span {
+  display: block;
+  font-size: 18px;
+  font-weight: 600;
+  color: #3e3a5d;
+  padding: 10px 0;
+  border-bottom: 1px dashed #ccc;
+}
